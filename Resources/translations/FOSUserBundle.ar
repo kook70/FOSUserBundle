@@ -1,0 +1,96 @@
+# Group
+group:
+    edit:
+        submit: قم بتحديث المجموعة
+    show:
+        name: اسم المجموعة
+    new:
+        submit: إنشاء المجموعة
+    flash:
+        updated: تم تحديث المجموعة
+        created: تم إنشاء المجموعة
+        deleted: تم حذف المجموعة
+
+# Security
+"Bad credentials": اسم المستخدم أو كلمة المرور غير صالحة
+
+security:
+    login:
+        username: "اسم المستخدم:"
+        password: "كلمة المرور:"
+        remember_me: تذكر معلومات الدخول
+        submit: تسجيل الدخول
+
+# Profile
+profile:
+    show:
+        username: اسم المستخدم
+        email: البريد الإلكتروني
+    edit:
+        submit: تحديث
+    flash:
+        updated: تم تحديث الملف الشخصي
+
+# Password change
+change_password:
+    submit: تغيير كلمة المرور
+    flash:
+        success: تم تغيير كلمة المرورتم تغيير كلمة المرور
+
+# Registration
+registration:
+    check_email: لقد تم إرسال رسالة إلكترونية إلى البريد الإلكتروني %email% . إنها تحتوي على رابط تفعيل يجب النقر عليه لتفعيل حسابك .
+    confirmed: %username% تهانينا, لقد تم الآن تفعيل حسابك .
+    back: العودة إلى الصفحة الرئيسية.
+    submit: تسجيل
+    flash:
+        user_created: عملية التسجيل تمت بنجاح 
+    email:
+        subject: !%username% مرحبا بك
+        message: |
+           أهلا وسهلا !%username% 
+
+            لاستكمال تفعيل حسابك - يرجى %confirmationUrl% زيارة 
+
+            مع خالص التقدير،
+            فريق العمل .
+
+# Password resetting
+resetting:
+    password_already_requested: لقد طلبت كلمة مرور هذا المستخدم في الساعات ال 24 الماضية .
+    check_email: تم إرسال رسالة إلكترونية إلى عنوان البريد الإلكتروني %email% . البريد الإلكتروني يحتوي على رابط  يجب  الضغط عليه لإعادة تعيين كلمة المرور الخاصة بك.
+    request:
+        invalid_username: اسم المستخدم أو البريد الالكتروني "%username%" غير موجود.
+        username: "اسم المستخدم أو عنوان البريد الإلكتروني:"
+        submit: إعادة تعيين كلمة المرور
+    reset:
+        submit: تغيير كلمة المرور
+    flash:
+        success: تم بنجاح إعادة تعيين كلمة المرور
+    email:
+        subject: إعادة تعيين كلمة المرور الخاصة بك
+        message: |
+            أهلا وسهلا %username%!
+
+           لإعادة تعيين كلمة المرور الخاصة بك - يرجى %confirmationUrl% زيارة
+
+            مع خالص التقدير،
+            فريق العمل .
+
+# Global strings
+layout:
+    logout: خروج
+    login: دخول 
+    register: تسجيل 
+    logged_in_as: خولك مسجل باسم %username%
+
+# Form field labels
+form:
+    group_name: "اسم المجموعة:"
+    username: "اسم المستخدم:"
+    email: "البريد الإلكتروني:"
+    current_password: "كلمة المرور الحالية:"
+    password: "كلمة المرور:"
+    password_confirmation: "تأكيد كلمة المرور:"
+    new_password: "كلمة مرور جديدة:"
+    new_password_confirmation: "تأكيد كلمة المرور الجديدة:"
