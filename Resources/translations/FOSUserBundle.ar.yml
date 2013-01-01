@@ -35,7 +35,7 @@ profile:
 change_password:
     submit: تغيير كلمة المرور
     flash:
-        success: تم تغيير كلمة المرورتم تغيير كلمة المرور
+        success: تم تغيير كلمة المرور
 
 # Registration
 registration:
@@ -72,7 +72,7 @@ resetting:
         message: |
             أهلا وسهلا %username%!
 
-           لإعادة تعيين كلمة المرور الخاصة بك - يرجى %confirmationUrl% زيارة
+            لإعادة تعيين كلمة المرور الخاصة بك - يرجى %confirmationUrl% زيارة
 
             مع خالص التقدير،
             فريق العمل .
